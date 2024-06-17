@@ -1,0 +1,13 @@
+### listar usuario
+GET http://127.0.0.1:3000/usuario
+
+### guardar usuario
+POST http://127.0.0.1:3000/usuario
+Content-Type: application/json
+
+{
+  "nombreu": "Juan",
+  "apellidou": "Pérez",
+  "cedula": 1234567890,
+  "correo": "juan.perez@ejemplo.com"
+}

@@ -1,0 +1,10 @@
+### listar tipo_usuario
+GET http://127.0.0.1:3000/tipo_usuario
+
+### guardar tipo_usuario
+POST http://127.0.0.1:3000/tipo_usuario
+Content-Type: application/json
+
+{
+  "tipousuario": "Estudiante"
+}

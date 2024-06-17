@@ -1,0 +1,14 @@
+### listar tipo_vehiculos
+GET http://127.0.0.1:3000/tipo_vehiculo
+
+### guardar tipo_vehiculos
+POST http://127.0.0.1:3000/tipo_vehiculo
+Content-Type: application/json
+
+{
+  "nombrevehiculo": "Automóvil",
+  "idtarifa": 1
+}
+
+
+

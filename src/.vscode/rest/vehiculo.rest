@@ -1,0 +1,50 @@
+### listar vehiculo
+GET http://127.0.0.1:3000/vehiculo
+
+
+### guardar vehiculo
+POST http://127.0.0.1:3000/vehiculo
+Content-Type: application/json
+
+[{
+  "placa": "ABC123",
+  "modelo": "Toyota",
+  "idtipovehiculo": 1,
+  "idusuario": 1,
+  "idtarifa": 1,
+  "idregistro": 1
+},
+{
+  "placa": "ABC234",
+  "modelo": "Kia",
+  "idtipovehiculo": 1,
+  "idusuario": 1,
+  "idtarifa": 1,
+  "idregistro": 2
+},
+{
+  "placa": "DEF123",
+  "modelo": "Mazda",
+  "idtipovehiculo": 1,
+  "idusuario": 1,
+  "idtarifa": 1,
+  "idregistro": 3
+},
+{
+  "placa": "DEF456",
+  "modelo": "Hyhundai",
+  "idtipovehiculo": 1,
+  "idusuario": 1,
+  "idtarifa": 1,
+  "idregistro": 4
+},
+{
+  "placa": "PBB7288",
+  "modelo": "Ford",
+  "idtipovehiculo": 1,
+  "idusuario": 1,
+  "idtarifa": 1,
+  "idregistro": 5
+}]
+
+

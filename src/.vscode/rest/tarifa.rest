@@ -1,0 +1,11 @@
+### listar tarifa
+GET http://127.0.0.1:3000/tarifa
+
+### guardar tarifa
+POST http://127.0.0.1:3000/tarifa
+Content-Type: application/json
+
+{
+  "costohora": 5,
+  "costomes": 100
+}
